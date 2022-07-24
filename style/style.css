@@ -5,3 +5,66 @@
     color: blue;
     font-weight: 700;
 }
+
+
+.black{
+    background-color: black;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.608);
+}
+
+.bdr{
+    border: 2px solid red;
+}
+
+.fa-solid{
+    padding: 4px;
+    background-color: #5243c221;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: blue;
+}
+
+.fair_section{
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.fair_section:hover {
+    background-color: rgba(0, 0, 255, 0.632);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.fair_section:hover p{
+    color: white;
+}
+
+
+.fair_section:hover i{
+    background: rgba(176, 171, 171, 0.5);
+    color: white;
+}
+
+.fair_section:hover .price-btn a{
+    background-color: white;
+}
+
+.fair_section p{
+    color: #848199;
+}
+
+
+.price-btn{
+    border-radius: 10%;
+}
+
+.price-btn a{
+    color: blue;
+    font-weight: 700;
+    background-color: #f496d243;
+
+}
